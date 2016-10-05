@@ -1635,8 +1635,8 @@ display: block
 .usa-footer .usa-footer-primary-link {
 color: #595959;
 display: block;
-font-weight: 700;
-margin-top: 0
+font-weight: 400;
+margin-top: 4px;
 }
 
 
@@ -3248,6 +3248,11 @@ position: absolute;
 top: -4.865rem;
 width: 100%
 }
+
+.section-dark:before svg {
+	color: #000000;
+}
+
 
 
 .section-bg-parent {
