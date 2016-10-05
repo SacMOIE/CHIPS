@@ -23,3 +23,20 @@ a.logo {
 .section-bg:before {
 	top: -60px;
 }
+
+.two_up-part {
+    margin-top: 3.75rem;
+}
+
+@media screen and (min-width: 600px) {
+.two_up {
+    width: 100%;}
+	
+.two_up-part {
+    float: left;
+    display: block;
+    margin-right: 5%;
+    width: 45%;
+    margin-top: 0;} 
+}
+
