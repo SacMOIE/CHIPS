@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Status page and console additions | cloud.gov</title>
+  <meta name="description" content="We’ve added a new status page to show you the state of the cloud.gov platform, and we’ve made significant upgrades in your ability to manage your apps via th...">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Status page and console additions | cloud.gov" />
+  <meta name="twitter:title" content="Status page and console additions | cloud.gov">
+  <meta property="og:url" content="https://cloud.gov/2015/09/01/sprint-4-update.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="https://cloud.gov/assets/img/clouds.jpg">
+  <meta name="twitter:image" content="https://cloud.gov/assets/img/clouds.jpg">
+  <meta property="og:description" content="We’ve added a new status page to show you the state of the cloud.gov platform, and we’ve made significant upgrades in your ability to manage your apps via th...">
+  <meta name="twitter:description" content="We’ve added a new status page to show you the state of the cloud.gov platform, and we’ve made significant upgrades in your ability to manage your apps via th...">
+
+  <link rel="stylesheet" href="http://cloud.gov/assets/css/cloudgov-style-min.css">
+  <link rel="stylesheet" href="http://cloud.gov/assets/css/main.css">
+
+  <link rel="shortcut icon" type="image/x-icon" href="http://cloud.gov/assets/img/favicon.ico" />
+
+  <link rel="canonical" href="https://cloud.gov/2015/09/01/sprint-4-update.html">
+ <!-- <link rel="alternate" type="application/rss+xml" title="cloud.gov" href="https://cloud.gov/feed.xml" />  -->
+  <script>
+    if (/^www\./.test(window.location.hostname)) {
+      window.location = window.location.href.replace('www.', '');
+    }
+  </script>
+</head>
+
+
+  <body>
+
+    <!-- start header -->
+<div class="usa-disclaimer">
+  <div class="usa-grid">
+    <span class="usa-disclaimer-official">An official website of the United States Government
+      <img alt="US flag signifying that this is a United States Federal Government website" src="http://cloud.gov/assets/img/us_flag_small.png">
+    </span>
+    <span class="usa-disclaimer-stage">This site is currently in alpha. <a href="https://18f.gsa.gov/dashboard/stages/#alpha">Learn more.</a></span>
+  </div>
+</div>
+<header class="header">
+  <div class="header-wrap">
+
+    <!-- start logo -->
+    <h2 class="header-title">
+      <a href="http://cloud.gov/" class="logo" title="Home">
+        <svg class="logo">
+          <use xlink:href="/assets/img/cloudgov-sprite.svg#logo"/>
+        </svg>
+      </a>
+    </h2>
+    <!--end logo -->
+
+    <!-- start top navigation -->
+    <nav class="header-side">
+      <ul class="nav">
+        <li class="nav-link">
+          <a href="../../../index.html#about">About</a>
+        </li>
+        <li class="nav-link usa-current">
+          <a href="https://docs.cloud.gov/">Documentation</a>
+        </li>
+        <li class="nav-link">
+          <a href="https://cloud.gov/updates/">Updates</a>
+        </li>
+        <li class="nav-link">
+          <a href="https://cloudgov.statuspage.io/">Status</a>
+        </li>
+        <li class="nav-link">
+          <a href="https://dashboard.cloud.gov/">Dashboard</a>
+        </li>
+        <li class="nav-link">
+          <a href="../../../index.html#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- end top navigation -->
+  </div>
+</header>
+<!-- end header -->
+
+
+    <main class="usa-content section-middle section-light">
+  <div class="usa-grid">
+    <div class="section-content usa-content">
+      <h1>Status page and console additions</h1>
+      
+      <section id="post" class="container content-section">
+  <header class="post-header">
+    <p class="post-meta">Sep 1, 2015</p>
+  </header>
+  <article class="post-content">
+  <p>We’ve added a new status page to show you the state of the cloud.gov platform, and we’ve made significant upgrades in your ability to manage your apps via the web.</p>
+
+<h1 id="status-page">Status Page</h1>
+<p>As production use of cloud.gov ramps up, it’s important that you have a constant picture of the platform’s status, which may affect your product’s operations and availability.</p>
+
+<p>We’re now providing this visibility via the <a href="https://cloudgov.statuspage.io/">cloud.gov Status Page</a>, where you’ll be able to see at a glance:</p>
+
+<ul>
+  <li>When there are any ongoing or recent degradations in service</li>
+  <li>When any maintenance is planned or recently completed</li>
+</ul>
+
+<p>We’ve proactively subscribed existing users to that page, so there’s no need for any action on your part… You’ll be notified via e-mail whenever problems are identified, or when planned maintenance is expected to impact your application’s availability. However, you can also use the subscription control at the upper-right of the page to subscribe to updates via texts or Atom/RSS feed if you so choose.</p>
+
+<h1 id="console-improvements">Console Improvements</h1>
+<p>In addition to the command-line client, the <a href="https://console.cloud.gov/">cloud.gov web-based console</a> has now entered an alpha state. You can use the console to <strong>review your organizations and spaces</strong>, and <strong>manage the state of your applications, services, and routes</strong>. Creation of accounts, orgs, and spaces is still managed <a href="https://docs.cloud.gov/getting-started/setup/">via GitHub request</a>.</p>
+
+<p>Here are examples of actions now possible via the magic of your Interweb-capable browsing apparatus:</p>
+
+<ul>
+  <li>Traverse the layout of your accessible organizations and spaces</li>
+  <li>Control access to your owned orgs and spaces for other accounts</li>
+  <li>Browse a list of available services and provision new instances</li>
+  <li>Bind service instances with specific applications</li>
+  <li>Edit the routes that will bring user traffic to an application</li>
+  <li>Inspect the live resource utilization of a running application</li>
+  <li>Restart stopped or misbehaving applications</li>
+</ul>
+
+<p>If you’ve not taken a look in a while, please <a href="https://console.cloud.gov/">check it out</a>!</p>
+
+<p>Note I said above the console is in “alpha” state, and really it’s more of an MVP. Please <a href="https://github.com/18F/cf-deck/issues">report problems or feature requests</a> or better yet, <a href="https://github.com/18F/cf-deck/pulls">make pull-requests</a> via GitHub. (Side note: <strong>We are short-handed on front-end/design/UI resources</strong>, so any quick help anyone can offer, even if it’s just some help with our IA, would be very <strong>VERY</strong> welcome!)</p>
+
+<h1 id="other-stuff">Other stuff</h1>
+<p>We’re now publishing our <a href="https://18f.storiesonboard.com/m/gov-dev">roadmap</a> in <a href="http://jpattonassociates.com/wp-content/uploads/2015/03/story_mapping.pdf">story-map form</a> in case anyone wants to get a peek at what we’re focused on now and what we’re juggling for the future. Our focus right now is: <strong>Buttoning up loose ends that prevent us from offering cloud.gov to other agencies.</strong></p>
+
+<p>Our <a href="https://trello.com/b/ChGzyepo/gov-dev">intra-sprint kanban board</a> is also visible, as is the <a href="https://www.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks%40group.calendar.google.com&amp;ctz=America/Los_Angeles">calendar of cloud.gov team rituals</a> for anyone who would like to attend.</p>
+
+<p>That’s all for now…</p>
+
+  </article>
+</section>
+
+    </div>
+  </div>
+</main>
+
+
+      <footer class="usa-footer usa-footer-slim usa-sans" role="contentinfo">
+    <div class="usa-footer-primary-section">
+      <div class="usa-grid-full">
+        <nav class="usa-footer-nav usa-width-two-thirds">
+          <ul class="usa-unstyled-list">
+            <li class="usa-width-one-fourth usa-footer-primary-content">
+              <a class="usa-footer-primary-link" href="https://docs.cloud.gov/help/">cloud.gov help</a>
+            </li>
+            <li class="usa-width-one-fourth usa-footer-primary-content">
+              <a class="usa-footer-primary-link" href="https://github.com/18F/cg-landing">Edit this page</a>
+            </li>
+            <li class="usa-width-one-fourth usa-footer-primary-content">
+              <a class="usa-footer-primary-link" href="https://18f.gsa.gov/">Made by 18F</a>
+            </li>
+            <li class="usa-width-one-fourth usa-footer-primary-content">
+              <a class="usa-footer-primary-link" href="https://18f.gsa.gov/2015/10/09/cloud-gov-launch/">Announcement post</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="usa-width-one-third usa-footer-primary-content">
+          <a href="mailto:cloud-gov-inquiries@gsa.gov">cloud-gov-inquiries@gsa.gov</a>
+        </div>          
+      </div>
+    </div>
+  </footer>
+
+    <script src="http://cloud.gov/assets/js/jquery-1.11.3.min.js"></script>
+<script src="http://cloud.gov/assets/js/cloudgov-style-min.js"></script>
+<script src="http://cloud.gov/assets/js/index.js"></script>
+
+<!-- statuspage.io widget support code-->
+<script src="https://cdn.statuspage.io/se-v2.js"></script>
+<!-- statuspage.io implementation in page-->
+<script src="http://cloud.gov/assets/js/statuspage.js"></script>
+
+<!--
+  analytics for DAP, for more info visit
+  https://www.digitalgov.gov/services/dap/
+-->
+<script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA&subagency=18F"
+id="_fed_an_ua_tag"></script>
+
+
+  </body>
+</html>

@@ -1,7 +1,0 @@
----
-applications:
-- name: landing
-  host: landing
-memory: 64M
-path: _site
-buildpack: staticfile_buildpack
