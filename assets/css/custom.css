@@ -1,0 +1,17 @@
+.header-wrap {
+	padding: 1rem 1rem;
+}
+
+.header-title {
+	width: 100%;
+}
+
+.logo {
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+}
+
+a.logo {
+	height: 80px;
+}
