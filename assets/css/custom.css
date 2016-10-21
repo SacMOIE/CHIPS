@@ -44,3 +44,23 @@ a.logo {
 	font-size: .7em;
 }
 
+.header {
+	min-height: 12rem;
+	background: url("../img/city-seal.png");
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+	background-size: contain;
+}
+
+.usa-disclaimer {
+    background-color: #c6a645;
+	color: white;
+	font-size: .8rem;
+	padding-bottom: .1rem;
+	padding-top: .1rem;
+	text-align: right;
+	padding-right: 2rem;
+}
+
