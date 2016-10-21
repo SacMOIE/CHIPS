@@ -3266,7 +3266,7 @@ background-color: transparent
 
 
 .section-bg:before {
-background: url(../img/cg-bg-b.png) no-repeat;
+background: url(../img/cg-bg-b-brown.png) no-repeat;
 height: 44.3rem;
 left: -23rem;
 position: absolute;
@@ -3279,6 +3279,7 @@ z-index: -1
 .section-bg-far-r {
 background: url(../img/cg-bg-c.png) 278% 5vh no-repeat
 }
+
 
 
 @media screen and (min-width:600px) {

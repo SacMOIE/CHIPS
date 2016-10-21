@@ -68,3 +68,13 @@ a.logo {
 a.usa-button-header {
 	background-color: white;
 }
+
+.separator:after, .separator:before {
+	background: linear-gradient(to top, #c6a645 0, #fff 100%);
+}
+
+@media screen and (max-width: 1000px) {
+.section-bg-far-r {
+	background: inherit
+	}
+}
