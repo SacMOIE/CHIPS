@@ -78,3 +78,9 @@ a.usa-button-header {
 	background: inherit
 	}
 }
+
+.section-light.problem-page:before {
+    background-image: none;
+    position: absolute;
+    top: -4.865rem;
+}
